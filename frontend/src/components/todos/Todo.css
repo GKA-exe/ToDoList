@@ -1,0 +1,16 @@
+.todo-style {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #bdbdbd;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gray-style {
+    color: #8f8f8f;
+}
+
+.todo-style.completed {
+    background-color: #d9f7be; /* Light green background */
+  }

@@ -1,0 +1,38 @@
+.home-background {
+    background-color: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .home-paper {
+    padding: 40px;
+  }
+  
+  .home-text {
+    text-align: center;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .home-button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
+  .home-button {
+    margin: 0 10px;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+
+  
