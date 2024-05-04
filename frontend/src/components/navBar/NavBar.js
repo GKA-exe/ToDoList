@@ -35,7 +35,7 @@ function NavBar() {
               textDecoration: "none",
             }}
           >
-            TODO LIST APP
+            COLLABORATIVE TODO LIST
           </Typography>
 
           <Box sx={{ justifyContent: "flex-end" }}>

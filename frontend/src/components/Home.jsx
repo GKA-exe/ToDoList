@@ -2,13 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Typography, Button, Grid, Paper } from '@mui/material';
 import './Home.css';
+import icon from "./icon.png";
 
 function Home() {
   return (
     <>
       <div className="home-background">
         <Container maxWidth="md">
-          <Grid container spacing={4} justifyContent="center" alignItems="center">
+          <Grid
+            container
+            spacing={4}
+            justifyContent="center"
+            alignItems="center"
+          >
             <Grid item xs={12} md={6}>
               <Paper elevation={3} className="home-paper">
                 <div className="home-text">
@@ -16,7 +22,8 @@ function Home() {
                     Welcome to the Todo App
                   </Typography>
                   <Typography variant="body1" paragraph>
-                    Start managing your tasks with our simple and intuitive todo list.
+                    Start managing your tasks with our simple and intuitive todo
+                    list.
                   </Typography>
                   <div className="home-buttons">
                     <Button
@@ -44,7 +51,7 @@ function Home() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={6}>
-              <img src="/todo-icon.svg" alt="Todo Icon" className="home-image" />
+              <img src={icon} alt="Todo Icon" className="home-image" />
             </Grid>
           </Grid>
         </Container>
