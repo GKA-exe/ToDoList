@@ -12,7 +12,7 @@ function Todo({ todo, fetchTodos }) {
       await axios.delete(`http://localhost:5000/api/todos/${id}`);
       fetchTodos(); 
     } catch (error) {
-      console.error(error.response.data);
+      console.log(error.response.data);
     }
   };
 
